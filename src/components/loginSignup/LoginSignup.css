@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+}
+
+/* 🔹 Landing Page */
+.landing {
+  text-align: center;
+  background: white;
+  padding: 40px;
+  border-radius: 10px;
+  width: 300px;
+}
+
+.landing h1 {
+  margin-bottom: 10px;
+}
+
+.landing p {
+  margin-bottom: 20px;
+  color: gray;
+}
+
+.landing button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  background: #4facfe;
+  color: white;
+  cursor: pointer;
+}
+
+.landing button:last-child {
+  background: #333;
+}
+
+/* 🔹 Form Box */
+.form-box {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  width: 320px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.underline {
+  width: 50px;
+  height: 3px;
+  background: #4facfe;
+  margin: 5px auto;
+}
+
+/* Inputs */
+.inputs {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.input img {
+  width: 20px;
+  margin-right: 10px;
+}
+
+.input input {
+  border: none;
+  outline: none;
+  width: 100%;
+}
+
+/* Forgot */
+.forgot-password {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.forgot-password span {
+  color: blue;
+  cursor: pointer;
+}
+
+/* Button */
+.submit-btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  background: #4facfe;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* Switch */
+.switch-text {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.switch-text span {
+  color: blue;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* 🔹 Responsive */
+@media (max-width: 500px) {
+  .landing,
+  .form-box {
+    width: 90%;
+  }
+}
+.agency {
+  margin-bottom: 15px;
+}
+
+.agency p {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.agency label {
+  margin-right: 10px;
+  font-size: 14px;
+}
